@@ -1,17 +1,11 @@
 export default function Home() {
-  function texto() {
-    const texto = document.querySelector(".texto");
-    texto.innerHTML +=
-      "Só para dizer o quanto você é especial, e que as dificuldades são só uma fase que vai passar. Te adoro <3";
-  }
-
   return (
     <div>
-      <button type="button" onClick={texto}>
-        clica aqui
-      </button>
-      <br></br>
-      <p className="texto"></p>
+      <h1 style={{ letterSpacing: "2px", fontSize: "4em" }}>
+        Em construção <span style={{ color: "red" }}>.</span>
+        <span style={{ color: "green" }}>.</span>
+        <span style={{ color: "blue" }}>.</span>
+      </h1>
     </div>
   );
 }
